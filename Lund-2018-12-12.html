@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>From data to decisions</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Dmytro Perepolkin" />
+    <meta name="date" content="2018-12-11" />
+    <link href="libs/font-awesome/css/fontawesome-all.min.css" rel="stylesheet" />
+    <script src="libs/htmlwidgets/htmlwidgets.js"></script>
+    <script src="libs/deck.gl/deckgl.min.js"></script>
+    <link href="libs/mapbox-gl/mapbox-gl.css" rel="stylesheet" />
+    <script src="libs/mapbox-gl/mapbox-gl.js"></script>
+    <link href="libs/mapdeck/mapdeck.css" rel="stylesheet" />
+    <script src="libs/mapdeck-binding/mapdeck.js"></script>
+    <script src="libs/arc/arc.js"></script>
+    <link rel="stylesheet" href="xaringan-themer.css" type="text/css" />
+    <link rel="stylesheet" href="dmi3kno-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: left, title-slide
+
+# From data to decisions
+## Application for PhD in Environmental Science
+### Dmytro Perepolkin
+### 2018-12-11
+
+---
+
+
+
+
+
+
+# Why this PhD program?
+
+Last 7 years I spent helping companies and individuals making **better decisions**. 
+--
+
+.pull-left[
+
+In **Business**:
+
+- Main challenges are around frame and alternatives
+
+- Uncertainties are learned from data, simulated or elicited
+
+- Most decisions are single-objective
+]
+
+.pull-right[
+![:scale 85%](https://www.faithandleadership.com/sites/default/files/styles/article/public/field/image/elements-of-decision-quality_tp.jpg)
+]
+
+--
+
+In **Environmental Science**:
+
+- Multiple, conflicting objectives, complex dynamic systems
+
+- Uncertainties are learned through evidence
+
+--
+
+### It is just the next step <i class="fas  fa-rocket "></i>
+
+???
+*Image credit: [SDG](www.sdg.com)*
+
+---
+
+class: inverse, middle, center
+
+# How did I get here?
+
+---
+# From mining town to silicon valley
+
+.pull-left[
+
+BSc in *Econ Cybernetics* from [Kryvyi Rih Tech University](http://www.knu.edu.ua/en)
+
+- Individual project on Queueing Theory: *"Vehicle service simulation for open-pit mine"*. Written in Pascal/Delphi. 
+
+- Final project: *"Replenishment Planning for Inventory Systems"*. Real case from Iron Ore Processing factory.
+
+*MBA, Finance* from  [Cal State, East Bay](https://www.csueastbay.edu/)
+
+- Alumni of [Edmund Muskie Graduate Fellowship Program](https://en.wikipedia.org/wiki/Edmund_S._Muskie_Graduate_Fellowship_Program)
+
+- Internship at [Safeway Inc](https://en.wikipedia.org/wiki/Safeway_Inc.): assortment optimization, forecasting, demographics, customer loyalty data.
+
+]
+
+.pull-right[
+
+<div id="htmlwidget-3a7d2e73ba90355e634e" style="width:100%;height:360px;" class="mapdeck html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3a7d2e73ba90355e634e">{"x":{"access_token":"pk.eyJ1IjoiZG1pM2tubyIsImEiOiJjamp0MWx1cnMwMHJ5M3FwZngyemJwZzVzIn0.n9KiXvycdx3O5l8QpR42Zg","style":"mapbox://styles/mapbox/dark-v9","pitch":60,"zoom":4,"location":[30.5,50.4],"calls":[{"functions":"add_arc","args":[[{"origin":"ulkcHmtzjE","destination":"c{zrHa`hyD","stroke_from":"#440154","stroke_to":"#440154","tooltip":"Kryvyi Rih, Ukraine - Kyiv, Ukraine (2001)","stroke_width":5,"stroke_from_opacity":255,"stroke_to_opacity":255},{"origin":"c{zrHa`hyD","destination":"aehsIs`rdF","stroke_from":"#443A83","stroke_to":"#443A83","tooltip":"Kyiv, Ukraine - Moscow, Russia (2002)","stroke_width":5,"stroke_from_opacity":255,"stroke_to_opacity":255},{"origin":"aehsIs`rdF","destination":"ae|dF|{bhV","stroke_from":"#31688E","stroke_to":"#31688E","tooltip":"Moscow, Russia - Hayward, CA (2003)","stroke_width":5,"stroke_from_opacity":255,"stroke_to_opacity":255},{"origin":"ae|dF|{bhV","destination":"ehn}FcimpG","stroke_from":"#21908C","stroke_to":"#21908C","tooltip":"Hayward, CA - Tbilisi, Georgia (2005)","stroke_width":5,"stroke_from_opacity":255,"stroke_to_opacity":255},{"origin":"ehn}FcimpG","destination":"uwcbKahm~@","stroke_from":"#35B779","stroke_to":"#35B779","tooltip":"Tbilisi, Georgia - Trondheim, Norway (2011)","stroke_width":5,"stroke_from_opacity":255,"stroke_to_opacity":255},{"origin":"uwcbKahm~@","destination":"s|tlJo`s`A","stroke_from":"#8FD744","stroke_to":"#8FD744","tooltip":"Trondheim, Norway - Oslo, Norway (2014)","stroke_width":5,"stroke_from_opacity":255,"stroke_to_opacity":255},{"origin":"s|tlJo`s`A","destination":"_n~rI}apoA","stroke_from":"#FDE725","stroke_to":"#FDE725","tooltip":"Oslo, Norway - Lund, Sweden (2018)","stroke_width":5,"stroke_from_opacity":255,"stroke_to_opacity":255}],"arc_layer"]}]},"evals":[],"jsHooks":[]}</script>
+
+]
+
+---
+# Decision Analysis journey
+
+.pull-left[
+Moved to Norway in 2011 to start as **decision support analyst** in Statoil. 
+
+- Methodology shaped by Prof. Reidar Bratvold (University of Stavanger)
+
+- Major capital investment projects: concept selection, appraisal strategy, environmental impact for new infrastructure
+
+- Raised to **principal analyst**, developed and taught *"Introduction to Decision Quality"* course for upper-middle management 
+
+- Modeling in [@Risk](www.palisade.com), Excel, [DPL](www.syncopation.com) and R. 
+]
+
+.pull-right[
+&lt;center&gt;
+![:scale 70%](Picture1.png)
+![:scale 70%](Picture2.png)
+&lt;/center&gt;
+]
+
+---
+
+class: inverse, middle, center
+
+# The road ahead
+
+---
+# Geese management in agricultural landscapes
+
+Spatial-temporal ecological economic system with different types of agents, including farmers and geese.
+
+.pull-left[
++ Agent-based modelling to understand how agents make decisions under uncertainty
+
++ Quantifying uncertainty in models informed by data and/or expert judgement
+
++ Impact of uncertainty on model outputs
+
++ Uncertainty as relative frequency, subjective Bayesian probability or bounded probability
+
+📦 `RNetLogo`, `SHELF` 📦 
+]
+
+.pull-right[
+![](ID.png)
+]
+
+---
+# Related projects
+
+**University of Stirling**
+
+Redpath, S. M., Keane, A., Andrén, H., Baynham-Herd, Z., Bunnefeld, N., Duthie, A. B., Frank, J., Garcia, C.A., Månsson, J., Nilsson, L. &amp; Pollard, C. R. (2018). Games as Tools to Address Conservation Conflicts. *Trends in ecology &amp; evolution*, 33(6), 415-426.
+
++ `GMSE` package
++ Genetic algorithm, game-theoretic decision approach
++ Geese management in Sweden [project](https://www.conservationconflicts.info/copy-of-geese-and-crop-farmers-1) in cooperation with Lund University (Maria Johansson, Dept of Architecture and Build Environment)
+
+**Aarhus University**
+
+Chudzińska, M., Ayllón, D., Madsen, J., &amp; Nabe-Nielsen, J. (2016). Discriminating between possible foraging decisions using pattern-oriented modelling: The case of pink-footed geese in Mid-Norway during their spring migration. *Ecological modelling*, 320, 299-315.
+
++ Individual-based model
++ NetLogo implementation
+
+---
+# Related projects
+
+**University of Amsterdam**
+
+Dokter, A. M., Fokkema, W., Ebbinge, B. S., Olff, H., van der Jeugd, H. P., &amp; Nolet, B. A. (2018). Agricultural pastures challenge the attractiveness of natural saltmarsh for a migratory goose. Journal of Applied Ecology.
+
++ GPS and accelerometer equipment
++ Open data
+
+**Swedish University of Agricultural Sciences (SLU)**
+
+Olsson, C. (2018). Foraging and movement patterns by geese in agricultural landscapes.
+
+Montras Janer, T. (2016). Factors behind the risk of crop damage caused by wintering and migrating large grazing birds (geese and swans).
+
++ Literature review
++ Scandinavian data
++ Both attended Ecology of Animal Migration at Lund ([next session in November 2019](https://www.canmove.lu.se/courses-workshops/courses/ecology-of-animal-migration-2019))
+
+---
+class: center, middle
+
+# Thanks!
+
+Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+
+The chakra comes from [remark.js](https://remarkjs.com), [**knitr**](http://yihui.name/knitr), and [R Markdown](https://rmarkdown.rstudio.com).
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"navigation": {
+"scroll": false
+}
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
+
+<script>
+(function() {
+  var i, text, code, codes = document.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+})();
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

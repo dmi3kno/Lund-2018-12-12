@@ -1,0 +1,13 @@
+.title-slide {
+  background-image: url(https://www.euprio.eu/wp-content/uploads/2015/01/Lund_University_seal.svg_.png);
+  background-size: 50%;
+  background-position:  right -100px bottom -100px;
+}
+
+.title-slide h1 {
+    font-size: 85px;
+}
+
+.large { font-size: 130% }
+.small { font-size: 70% }
+.tiny { font-size: 40% }
